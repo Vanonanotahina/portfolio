@@ -320,7 +320,7 @@
         </section>
     </main>
 
-    <footer id="contact" class="grid md:flex  min:w-screen min-h-screen md:h-screen bg-white px-5 md:px-10 md:pt-15 md:gap-15">
+    <footer id="contact" class="grid lg:flex  min:w-screen min-h-screen md:h-screen bg-white px-5 md:px-10 md:pt-15 md:gap-15">
 
 
         <div class="relative flex flex-col min-h-screen text-left ">
