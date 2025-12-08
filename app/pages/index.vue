@@ -13,10 +13,10 @@
         </div>
     </section>
 
-    <main>
+    <main class="overflow-x-hidden">
         <section class="feature-card-wrapper relative h-screen w-screen">
-            <div data-aos="flip-up" class="feature-card absolute w-[80%] sm:w-[70%] md:w-[60%] lg:w-[60%] h-[42%] sm:h-[40%] md:h-[45%] lg:h-[40%] left-1/2 top-3/4 -translate-x-1/2 -translate-y-3/4 rounded-[10px] border-2 border-white flex text-center items-center sm:text-left md:text-center text-[#0e0e0e] p-10">
-                <p class="text-[1.4rem] sm:text-[2.1rem] md:text-[2.2rem]">Je transforme des idées en applications fonctionnelles et élégantes, en alliant sérieux, créativité et apprentissage constant.</p>
+            <div data-aos="flip-up" class="feature-card absolute w-[80%] md:w-[60%] lg:w-[60%] h-[42%] md:h-[45%] lg:h-[40%] left-1/2 top-3/4 -translate-x-1/2 -translate-y-3/4 rounded-[10px] border-2 border-white flex text-center items-center sm:text-left md:text-center text-[#0e0e0e] p-10">
+                <p class="text-lg sm:text-[2.1rem] md:text-[2.2rem]">Je transforme des idées en applications fonctionnelles et élégantes, en alliant sérieux, créativité et apprentissage constant.</p>
                 <!-- <p class="text-[1.4rem] sm:text-[1.8rem] md:text-[1.8rem] lg:text-4xl">I turn ideas into functional and elegant applications by combining seriousness, creativity, and continuous learning.</p> -->
             </div>
         </section>
@@ -334,7 +334,7 @@
             </p>
             <div data-aos="fade-right"  data-aos-duration="1000" class="under w-44 h-1 bg-black "></div>
 
-            <ul data-aos="fade-right" data-aos-duration="1000" class="absolute bottom-14 md:bottom-8 flex flex-col gap-2">
+            <ul data-aos="fade-right" data-aos-duration="1000" class="absolute bottom-0 md:bottom-8 flex flex-col gap-2">
                 <li>
                     <a href="https://github.com/Vanonanotahina" class="poppins flex items-center gap-4 text-sm md:text-md text-bold hover:underline">
                         <Icon name="uil:github" class="text-black text-[1.5rem] md:text-[1.8rem]" />
@@ -365,11 +365,11 @@
             </ul>
         </div>
 
-        <div class="relative flex-grow flex-wrap flex flex-col items-center justify-center py-20 md:py-0">
+        <div class="relative flex-grow flex-wrap flex flex-col items-center justify-center py-15 md:py-0">
             <!-- <h1 class="poppins text-black text-[2.2rem] mb-10">Leave a message</h1> -->
-            <h1 class="poppins text-black text-[2.2rem] mb-10">Laisser un message</h1>
-            <form @submit.prevent="submitForm" class="w-sm max-w-md md:w-lg mx-auto mb-10">
-                <div ref="notifs" class="relative hidden bg-green-500/10 text-sm rounded-md block w-full px-5 py-4.5 shadow-xs mb-10 duration-1000 ease-in"></div>
+            <h1 class="poppins text-black text-2xl md:text-[2.2rem] mb-10">Laisser un message</h1>
+            <form @submit.prevent="submitForm" class="w-xs max-w-md md:w-lg mx-auto mb-10">
+                <div ref="notifs" class="relative hidden bg-green-500/10 text-sm rounded-md block px-5 py-4.5 shadow-xs mb-10 duration-1000 ease-in"></div>
                 <div class="mb-10">
                     <!-- <label for="email" class="poppins block mb-3 text-sm font-medium text-heading">Your email</label> -->
                     <label for="email" class="poppins block mb-3 text-sm font-medium text-heading">Ton email</label>
@@ -377,7 +377,7 @@
                         v-model="formData.email"
                         type="email" 
                         id="email" 
-                        class="bg-[#5564c3]/10 border border-gray-300 text-heading text-sm rounded-md focus:border-[#36449c] block w-sm md:w-full px-5 py-4.5 shadow-xs placeholder:text-body" 
+                        class="bg-[#5564c3]/10 border border-gray-300 text-heading text-sm rounded-md focus:border-[#36449c] block w-full px-5 py-4.5 shadow-xs placeholder:text-body" 
                         placeholder="name@example.com" 
                         required 
                     />

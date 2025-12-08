@@ -128,7 +128,7 @@ nav{
 @media screen and (min-width: 90px) and (max-width: 500px) {
 
     .feature-card::before{
-        top: -70%;
+        top: -77%;
     }
 
     .feature-card::after{
