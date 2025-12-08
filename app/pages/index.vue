@@ -15,7 +15,7 @@
 
     <main class="overflow-x-hidden">
         <section class="feature-card-wrapper relative h-screen w-screen">
-            <div data-aos="flip-up" class="feature-card absolute w-[80%] md:w-[60%] lg:w-[60%] h-[42%] md:h-[45%] lg:h-[40%] left-1/2 top-3/4 -translate-x-1/2 -translate-y-3/4 rounded-[10px] border-2 border-white flex text-center items-center md:text-center text-[#0e0e0e] p-10">
+            <div data-aos="flip-up" class="feature-card absolute w-[80%] md:w-[80%] lg:w-[60%] h-[42%] md:h-[45%] lg:h-[40%] left-1/2 top-3/4 -translate-x-1/2 -translate-y-3/4 rounded-[10px] border-2 border-white flex text-center items-center md:text-center text-[#0e0e0e] p-10">
                 <p class="text-lg sm:text-[2.1rem] md:text-[2.2rem]">Je transforme des idées en applications fonctionnelles et élégantes, en alliant sérieux, créativité et apprentissage constant.</p>
                 <!-- <p class="text-[1.4rem] sm:text-[1.8rem] md:text-[1.8rem] lg:text-4xl">I turn ideas into functional and elegant applications by combining seriousness, creativity, and continuous learning.</p> -->
             </div>
