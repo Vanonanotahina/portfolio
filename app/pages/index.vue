@@ -325,7 +325,7 @@
 
         <div class="relative flex flex-col min-h-screen text-left ">
             <!-- <h1 data-aos="fade-right" data-aos-duration="1000" class="poppins text-7xl md:text-9xl">Nice to <span class="Birthstone-Casual-Regular text-[8rem] ml-[50%] md:ml-0 md:text-[12rem] text-[#36449c]">meet</span></h1> -->
-            <h1 data-aos="fade-right" data-aos-duration="1000" class="poppins text-7xl md:text-9xl"> Merci de votre <span class="Birthstone-Casual-Regular text-[8rem] ml-[50%] md:ml-0 md:text-[12rem] text-[#36449c]">visite</span></h1>
+            <h1 data-aos="fade-right" data-aos-duration="1000" class="poppins text-7xl md:text-9xl"> Merci de votre <span class="Birthstone-Casual-Regular text-[8rem] md:ml-0 md:text-[12rem] text-[#36449c]">visite</span></h1>
             <!-- <h2 class="-mt-5  text-sm md:text-md text-gray-500 tracking-widest">Located in Mada. Online – near you</h2> -->
             <h2 class="-mt-5 text-sm md:text-md text-gray-500 tracking-widest">Basé à Mada. En ligne – près de chez vous</h2>
             <p data-aos="fade-right"  data-aos-duration="1000" class="poppins flex items-center gap-2 text-4xl text-black mt-10">
