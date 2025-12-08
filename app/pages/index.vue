@@ -447,16 +447,15 @@
 
     const notifs = ref<HTMLElement | null>(null);
 
+    interface SendMessageResponse {
+        success: boolean
+        message?: string
+    }
 
     async function submitForm () {
 
         try{
             console.log('Form submitted:', formData.value);
-
-            interface SendMessageResponse {
-                success: boolean
-                message?: string
-            }
 
             const response = await $fetch<SendMessageResponse>('/api/message/sendMessage', {
                 method: 'post',
