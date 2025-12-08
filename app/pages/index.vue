@@ -329,7 +329,7 @@
             <!-- <h2 class="-mt-5  text-sm md:text-md text-gray-500 tracking-widest">Located in Mada. Online – near you</h2> -->
             <h2 class="-mt-5 text-sm md:text-md text-gray-500 tracking-widest">Basé à Mada. En ligne – près de chez vous</h2>
             <p data-aos="fade-right"  data-aos-duration="1000" class="poppins flex items-center gap-2 text-4xl text-black mt-10">
-                <a href="/carino_s_cv.pdf" download="">My CV</a>
+                <a href="/cv_carino.pdf" download="">My CV</a>
                 <Icon name="pixelarticons:arrow-up" class="text-5xl rotate-125" style="color: black" />
             </p>
             <div data-aos="fade-right"  data-aos-duration="1000" class="under w-44 h-1 bg-black "></div>
