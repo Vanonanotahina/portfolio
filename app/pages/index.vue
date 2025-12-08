@@ -452,7 +452,13 @@
 
         try{
             console.log('Form submitted:', formData.value);
-            const response = await $fetch('/api/msessage/sendMessage', {
+
+            interface SendMessageResponse {
+                success: boolean
+                message?: string
+            }
+
+            const response = await $fetch<SendMessageResponse>('/api/message/sendMessage', {
                 method: 'post',
                 body: { message: formData.value['message'], email: formData.value['email']},
                 headers: {
