@@ -377,7 +377,7 @@
                         v-model="formData.email"
                         type="email" 
                         id="email" 
-                        class="bg-[#5564c3]/10 border border-gray-300 text-heading text-sm rounded-md focus:border-[#36449c] block w-full px-5 py-4.5 shadow-xs placeholder:text-body" 
+                        class="bg-[#5564c3]/10 border border-gray-300 text-heading text-sm rounded-md focus:border-[#36449c] block w-sm md:w-full px-5 py-4.5 shadow-xs placeholder:text-body" 
                         placeholder="name@example.com" 
                         required 
                     />
