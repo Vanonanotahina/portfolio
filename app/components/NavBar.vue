@@ -36,6 +36,7 @@
 
     function toggleMenu() {
         menuOpen.value = !menuOpen.value
+        showMenu.value = true
     }
 
     function closeMenu(){
