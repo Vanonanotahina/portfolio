@@ -7,9 +7,9 @@
             </div>
         </div>
 
-        <div class="absolute si-wrapper flex flex-col items-center bottom-0 left-1/2 -translate-x-1/2">
+        <div class="absolute si-wrapper flex flex-col items-center -bottom-6 left-1/2 -translate-x-1/2">
             <div class="scroll-indicator relative w-6 md:w-10 h-5 md:h-10 border-4 md:border-6 border-l-white border-t-white rotate-45"></div>
-            <h2 class="scroll relative text-[#c0c0c0] text-[0.5rem] md:text-[1rem]">Scroll to learn more</h2>
+            <h2 class="scroll relative text-[#c0c0c0] text-sm md:text-[1rem]">Scroll to learn more</h2>
         </div>
     </section>
 

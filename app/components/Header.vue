@@ -1,6 +1,6 @@
 <template>
     <header class="hidden sm:flex">
-        <nav>
+        <nav class="nav">
             <ul class="flex gap-[4rem]">
                 <li @click="scrollTo('home')" class="cursor-pointer">Home</li>
                 <li @click="scrollTo('me')" class="cursor-pointer">Me</li>

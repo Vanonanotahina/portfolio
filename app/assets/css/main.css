@@ -17,7 +17,7 @@ html{
     /* background-color: #272727; */
     background-color: #0e0e0e;
 }
-nav{
+.nav{
     position: fixed;
     z-index: 100;
     display: flex;
