@@ -35,8 +35,7 @@
     let scrollTimeout: ReturnType<typeof setTimeout> | null = null
 
     function toggleMenu() {
-        menuOpen.value = !menuOpen.value
-        showMenu.value = true
+        menuOpen.value = !menuOpen.value;
     }
 
     function closeMenu(){
@@ -49,9 +48,11 @@
         // Reset timeout à chaque scroll
         if (scrollTimeout) clearTimeout(scrollTimeout)
 
+        if (menuOpen.value != false) return;
+
         scrollTimeout = setTimeout(() => {
             showMenu.value = false
-        }, 1000) 
+        }, 2000) 
     }
 
     onMounted(() => {
