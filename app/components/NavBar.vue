@@ -48,11 +48,14 @@
         // Reset timeout à chaque scroll
         if (scrollTimeout) clearTimeout(scrollTimeout)
 
-        if (menuOpen.value != false) return;
+        if (menuOpen.value === true) {
+            console.log("menu open");
+            return
+        }
 
         scrollTimeout = setTimeout(() => {
             showMenu.value = false
-        }, 2000) 
+        }, 2000)
     }
 
     onMounted(() => {

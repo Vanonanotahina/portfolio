@@ -72,7 +72,7 @@
                         <p>2025 —  present</p>
                     </div>
                     <div class="description poppins relative flex flex-col w-[75%] h-[100%] text-left  py-3 gap-3">
-                        <h1 class="post relative text-md font-semibold">Application de gestion de présence avec reconnaissance faciale · Assurance Aro </h1>
+                        <h1 class="post relative text-md font-semibold">Application de gestion de présence avec reconnaissance faciale · AA </h1>
                         <p class="details poppins relative text-gray-400 text-sm">
                             Conception de l’architecture front/back et mise en place du module de reconnaissance faciale (OpenCV / face embeddings).
                             Développement des API et de la logique métier connectées à la base de données Rukovoditel,
