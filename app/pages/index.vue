@@ -485,4 +485,24 @@
         }
     }
 
+   function resumeText() {
+    if (window.matchMedia('(max-width: 768px)').matches) {
+
+        const details = document.querySelectorAll(".details");
+
+        details.forEach(element => {
+            const maxLength = 100;
+            const text = element.textContent.trim();
+
+            if (text.length > maxLength) {
+                element.textContent = text.substring(0, maxLength) + "...";
+            }
+        });
+    }
+}
+
+    resumeText();
+
+
+
 </script>
