@@ -500,8 +500,9 @@
         });
     }
 }
-
+document.addEventListener("DOMContentLoaded", () => {
     resumeText();
+});
 
 
 
