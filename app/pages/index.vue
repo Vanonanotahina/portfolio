@@ -415,7 +415,14 @@
                     :disabled="isBlocked"
                     type="submit" 
                     class="text-white bg-[#36449c] rounded-md hover:bg-[#5564c3] focus:ring-4 shadow-xs font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none">
-                    {{ isBlocked ? 'Blocked' : 'Click Me' }}
+                    {{ isBlocked ? 'opacity-40 cursor-not-allowed hover:cursor-not-allowed' : '' }}
+                     Click Me
+                    <span
+                        v-if="isBlocked"
+                        class="absolute -top-2 -right-2 opacity-0 group-hover:opacity-100 transition"
+                    >
+                        🚫
+                    </span>
                 </button>
             </form>
 
@@ -452,7 +459,7 @@
         message?: string
     }
 
-    const isChecked = ref(false);
+    const isChecked = ref(true);
 
     const isBlocked = computed(() => {
         return isChecked.value
