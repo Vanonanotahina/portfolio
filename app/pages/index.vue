@@ -419,7 +419,7 @@
                     Valider
                     <span
                         v-if="isBlocked"
-                        class="absolute text-red-500 text-lg"
+                        class="items-center justify-center opacity-20 text-red-500 text-md"
                     >
                         🚫
                     </span>
