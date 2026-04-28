@@ -324,16 +324,16 @@
 
         <div class="relative flex flex-col min-h-screen text-left ">
             <!-- <h1 data-aos="fade-right" data-aos-duration="1000" class="poppins text-7xl md:text-9xl">Nice to <span class="Birthstone-Casual-Regular text-[8rem] ml-[50%] md:ml-0 md:text-[12rem] text-[#36449c]">meet</span></h1> -->
-            <h1 data-aos="fade-right" data-aos-duration="1000" class="poppins text-7xl md:text-9xl"> Merci de votre <span class="Birthstone-Casual-Regular text-[8rem] md:ml-0 md:text-[12rem] text-[#36449c]">visite</span></h1>
+            <h1 data-aos="fade-right" data-aos-duration="2000" class="poppins text-7xl md:text-9xl"> Merci de votre <span class="Birthstone-Casual-Regular text-[8rem] md:ml-0 md:text-[12rem] text-[#36449c]">visite</span></h1>
             <!-- <h2 class="-mt-5  text-sm md:text-md text-gray-500 tracking-widest">Located in Mada. Online – near you</h2> -->
             <h2 class="-mt-5 text-sm md:text-md text-gray-500 tracking-widest">Basé à Mada. En ligne – près de chez vous</h2>
-            <p data-aos="fade-right"  data-aos-duration="1000" class="poppins flex items-center gap-2 text-4xl text-black mt-10">
+            <p data-aos="fade-right"  data-aos-duration="2000" class="poppins flex items-center gap-2 text-4xl text-black mt-10">
                 <a href="/cv_carino.pdf" download="">My CV</a>
                 <Icon name="pixelarticons:arrow-up" class="text-5xl rotate-125" style="color: black" />
             </p>
-            <div data-aos="fade-right"  data-aos-duration="1000" class="under w-44 h-1 bg-black "></div>
+            <div data-aos="fade-right"  data-aos-duration="2000" class="under w-44 h-1 bg-black "></div>
 
-            <ul data-aos="fade-right" data-aos-duration="1000" class="absolute bottom-0 md:bottom-8 flex flex-col gap-2">
+            <ul data-aos="fade-right" data-aos-duration="2000" class="absolute bottom-0 md:bottom-8 flex flex-col gap-2">
                 <li>
                     <a href="https://github.com/Vanonanotahina" class="poppins flex items-center gap-4 text-sm md:text-md text-bold hover:underline">
                         <Icon name="uil:github" class="text-black text-[1.5rem] md:text-[1.8rem]" />
