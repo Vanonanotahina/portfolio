@@ -99,12 +99,11 @@
                     </div>
                     <div class="description poppins relative flex flex-col w-[75%] h-[100%] text-left  py-3 gap-3">
                         <h1 class="post relative text-md font-semibold">Développeur Full-Stack – Application web de gestion de clinique · Projet Academique</h1>
-                        <p class="details poppins relative text-gray-400 text-sm">
-                            <TruncateText text="Conception de l’architecture applicative et modélisation des entités métier (patients, actes médicaux, dépenses, recettes, catégories comptables).
+                            <TruncateText class="details poppins relative text-gray-400 text-sm" text="Conception de l’architecture applicative et modélisation des entités métier (patients, actes médicaux, dépenses, recettes, catégories comptables).
                             Développement du front-end et du back-end avec mise en place des modules de gestion financière (enregistrements des actes, saisie des dépenses/recettes, calcul automatique du chiffre d’affaires).
                             Implémentation d’une base de données centralisée permettant le suivi des opérations financières,
-                            la génération d’historiques et l’agrégation des données pour l’affichage d’un tableau de bord analytique (statistiques, courbes, indicateurs clés)."></TruncateText>
-                        </p>
+                            la génération d’historiques et l’agrégation des données pour l’affichage d’un tableau de bord analytique (statistiques, courbes, indicateurs clés).">
+                            </TruncateText>
                         <div class="technos relative w-[100%] flex flex-wrap gap-1.5">
                             <span class="poppins px-3 py-1 text-xs rounded-4xl bg-[#36449c] ">Laravel</span>
                             <span class="poppins px-3 py-1 text-xs rounded-4xl bg-[#36449c] ">Php</span>
