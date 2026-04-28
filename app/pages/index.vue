@@ -359,7 +359,7 @@
                     </a>
                 </li>
                 <li>
-                    <p class="mt-8 text-sm text-[rgb(116, 116, 116)]">© 2025</p>
+                    <p class="mt-8 text-sm text-[rgb(116, 116, 116)]">© 2026</p>
                 </li>
             </ul>
         </div>
