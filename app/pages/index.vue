@@ -73,12 +73,12 @@
                     </div>
                     <div class="description poppins relative flex flex-col w-[75%] h-[100%] text-left  py-3 gap-3">
                         <h1 class="post relative text-md font-semibold">Application de gestion de présence avec reconnaissance faciale · AA </h1>
-                        <p class="details poppins relative text-gray-400 text-sm">
+                        <TruncateText class="details poppins relative text-gray-400 text-sm" text="
                             Conception de l’architecture front/back et mise en place du module de reconnaissance faciale (OpenCV / face embeddings).
                             Développement des API et de la logique métier connectées à la base de données Rukovoditel,
                             avec personnalisation des entités (utilisateurs, présences, historiques), configuration des workflows et gestion des permissions.
-                            Développement d’une interface de pointage indépendante (capture + validation faciale) et implémentation de l’enregistrement automatisé des présences ainsi que de l’historisation complète dans Rukovoditel.
-                        </p>
+                            Développement d’une interface de pointage indépendante (capture + validation faciale) et implémentation de l’enregistrement automatisé des présences ainsi que de l’historisation complète dans Rukovoditel.">
+                        </TruncateText>
                         <div class="technos relative w-[100%] flex flex-wrap gap-1.5">
                             <span class="poppins px-3 py-1 text-xs rounded-4xl bg-[#36449c] ">Python</span>
                             <span class="poppins px-3 py-1 text-xs rounded-4xl bg-[#36449c] ">Javascript</span>
