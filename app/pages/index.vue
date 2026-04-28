@@ -415,11 +415,11 @@
                     :disabled="isBlocked"
                     type="submit" 
                     class="text-white bg-[#36449c] rounded-md hover:bg-[#5564c3] focus:ring-4 shadow-xs font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none
-                    isBlocked ? 'opacity-50 cursor-not-allowed hover:cursor-not-allowed' : ''">
+                    isBlocked ? 'opacity-20 cursor-not-allowed hover:cursor-not-allowed' : ''">
                     Valider
                     <span
                         v-if="isBlocked"
-                        class="items-center justify-center opacity-20 text-red-500 text-md"
+                        class="absolute justify-center -right-4 opacity-40 text-red-500 text-md"
                     >
                         🚫
                     </span>
