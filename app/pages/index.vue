@@ -333,7 +333,7 @@
             </p>
             <div class="under w-44 h-1 bg-black "></div>
 
-            <ul class="bottom-0 md:bottom-8 flex flex-col gap-2">
+            <ul class="absolute bottom-0 md:bottom-8 flex flex-col gap-2">
                 <li>
                     <a href="https://github.com/Vanonanotahina" class="poppins flex items-center gap-4 text-sm md:text-md text-bold hover:underline">
                         <Icon name="uil:github" class="text-black text-[1.5rem] md:text-[1.8rem]" />
@@ -398,7 +398,7 @@
                 <label for="confirm" class="flex items-center mb-6">
                     <input 
                         id="confirm" 
-                        type="checkbox" 
+                        type="checkbox" v-model="isChecked"
                         class="w-4 h-4 border border-gray-300 rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft"
                     />
                     <p class="poppins ms-2 text-sm font-medium text-heading select-none">
@@ -412,9 +412,10 @@
                     Submit
                 </button> -->
                  <button
+                    :disabled="isBlocked"
                     type="submit" 
                     class="text-white bg-[#36449c] rounded-md hover:bg-[#5564c3] focus:ring-4 shadow-xs font-medium leading-5 text-sm px-4 py-2.5 focus:outline-none">
-                    Valider
+                    {{ isBlocked ? 'Blocked' : 'Click Me' }}
                 </button>
             </form>
 
@@ -450,6 +451,12 @@
         success: boolean
         message?: string
     }
+
+    const isChecked = ref(false);
+
+    const isBlocked = computed(() => {
+        return isChecked.value
+    })
 
     async function submitForm () {
 
