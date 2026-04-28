@@ -333,7 +333,7 @@
             </p>
             <div data-aos="fade-right"  data-aos-duration="2000" class="under w-44 h-1 bg-black "></div>
 
-            <ul data-aos="fade-right" data-aos-duration="2000" class="absolute bottom-0 md:bottom-8 flex flex-col gap-2">
+            <ul data-aos="fade-right" data-aos-duration="2000" class="bottom-0 md:bottom-8 flex flex-col gap-2">
                 <li>
                     <a href="https://github.com/Vanonanotahina" class="poppins flex items-center gap-4 text-sm md:text-md text-bold hover:underline">
                         <Icon name="uil:github" class="text-black text-[1.5rem] md:text-[1.8rem]" />
@@ -483,25 +483,5 @@
             console.error(error);
         }
     }
-
-  const texts = [
-  "texte long 1...",
-  "texte long 2...",
-  "texte long 3..."
-]
-
-const displayTexts = ref([...texts])
-
-onMounted(() => {
-  if (window.matchMedia('(max-width: 768px)').matches) {
-    const maxLength = 100
-
-    displayTexts.value = texts.map(t =>
-      t.length > maxLength ? t.substring(0, maxLength) + "..." : t
-    )
-  }
-})
-
-
 
 </script>
