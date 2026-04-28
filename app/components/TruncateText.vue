@@ -1,22 +1,35 @@
 <template>
-  <p>{{ displayText }}</p>
+  <p @click="toggleText">
+    {{ expanded ? props.text : truncatedText }}
+  </p>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 
 const props = defineProps({
   text: String,
   max: { type: Number, default: 100 }
 })
 
-const displayText = ref(props.text)
+const expanded = ref(false)
+const isMobile = ref(false)
+
+const truncatedText = computed(() => {
+  if (!isMobile.value) return props.text
+
+  return props.text.length > props.max
+    ? props.text.substring(0, props.max) + "..."
+    : props.text
+})
+
+function toggleText() {
+  expanded.value = !expanded.value
+}
 
 onMounted(() => {
   if (window.matchMedia('(max-width: 768px)').matches) {
-    if (props.text.length > props.max) {
-      displayText.value = props.text.substring(0, props.max) + "..."
-    }
+    isMobile.value = true
   }
 })
 </script>
